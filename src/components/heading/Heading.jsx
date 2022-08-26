@@ -3,9 +3,9 @@ import { HeadingContainer, HeadingTitle, HeadingSubTitle} from "./headingStyle"
 
 function Heading({ title, subtitle }) {
   return (
-    <HeadingContainer>
+    <HeadingContainer data-aos="fade-up" data-aos-offset="400">
         <HeadingTitle>{title}</HeadingTitle>
-        <HeadingSubTitle>{subtitle}</HeadingSubTitle>
+        <HeadingSubTitle >{subtitle}</HeadingSubTitle>
     </HeadingContainer>
   )
 }

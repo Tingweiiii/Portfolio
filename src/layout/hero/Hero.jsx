@@ -6,9 +6,9 @@ function Hero() {
   return (
     <HeroContainer id="hero">
       <HeroHeading>
-        <HeroTitle>Hi, I'm Ian</HeroTitle>
-        <HeroSubTitle>網頁前端工程師</HeroSubTitle>
-        <HeroText>- 希望呈現溫暖且富有故事性的網頁作品 -</HeroText>
+        <HeroTitle data-aos="fade-left" data-aos-delay="100">Hi, I'm Ian</HeroTitle>
+        <HeroSubTitle data-aos="fade-left" data-aos-delay="200">網頁前端工程師</HeroSubTitle>
+        <HeroText data-aos="fade-left" data-aos-delay="300">- 希望呈現溫暖且富有故事性的網頁作品 -</HeroText>
         <Link to="project" offset={-128}><HeroButton>Read More</HeroButton></Link>
       </HeroHeading>
     </HeroContainer>
